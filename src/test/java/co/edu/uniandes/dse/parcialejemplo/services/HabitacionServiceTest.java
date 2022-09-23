@@ -53,7 +53,7 @@ public class HabitacionServiceTest {
     }
 
     private void clearData() {
-        entityManager.getEntityManager().createQuery("delete from HabitacionEntity");
+        entityManager.getEntityManager().createQuery("delete from HabitacionEnity");
        
     }
     @Test
